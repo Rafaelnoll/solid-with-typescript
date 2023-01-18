@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:silent": "jest --watchAll --silent --noStackTrace",
+    "test:coverage": "jest --coverage --silent --noStackTrace"
   },
   "repository": "git@github.com:Rafaelnoll/solid-with-typescript.git",
   "author": "Rafael Noll <rafanoll2004@gmail.com>",
